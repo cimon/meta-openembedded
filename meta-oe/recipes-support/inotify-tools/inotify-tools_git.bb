@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=ac6c26e52aea428ee7f56dc2c56424c6"
 SRCREV = "e203934e46784bb34c213078423ba1678e0c4936"
 PV = "3.20.1"
 
-SRC_URI = "git://github.com/rvoicilas/${BPN} \
+SRC_URI = "git://github.com/rvoicilas/${BPN};branch=master;protocol=https \
            file://inotify-nosys-fix-system-call-number.patch \
           "
 

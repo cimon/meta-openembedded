@@ -13,7 +13,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
 SRCREV ?= "120ac127654c4644d46a74799fffe527ab1f4f42"
 
-SRC_URI = "git://github.com/open-iscsi/open-iscsi \
+SRC_URI = "git://github.com/open-iscsi/open-iscsi;branch=master;protocol=https \
            file://0001-Fix-i586-build-issues-with-string-length-overflow.patch \
            file://initd.debian \
            file://99_iscsi-initiator-utils \

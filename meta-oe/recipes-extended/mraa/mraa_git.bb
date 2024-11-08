@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=4b92a3b497d7943042a6db40c088c3f2"
 SRCREV = "967585c9ea0e1a8818d2172d2395d8502f6180a2"
 PV = "2.0.0+git${SRCPV}"
 
-SRC_URI = "git://github.com/intel-iot-devkit/${BPN}.git;protocol=http \
+SRC_URI = "git://github.com/intel-iot-devkit/${BPN}.git;branch=master;protocol=https \
            "
 
 S = "${WORKDIR}/git"

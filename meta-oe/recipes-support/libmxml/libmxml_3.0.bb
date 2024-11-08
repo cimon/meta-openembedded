@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 HOMEPAGE = "https://www.msweet.org/mxml/"
 BUGTRACKER = "https://github.com/michaelrsweet/mxml/issues"
 
-SRC_URI = "git://github.com/michaelrsweet/mxml.git"
+SRC_URI = "git://github.com/michaelrsweet/mxml.git;branch=master;protocol=https"
 SRCREV = "c7755b6992a2afdd34dde47fc9be97f1237cfded"
 S = "${WORKDIR}/git"
 

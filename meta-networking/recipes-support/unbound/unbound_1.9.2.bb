@@ -9,7 +9,7 @@ SECTION = "net"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=5308494bc0590c0cb036afd781d78f06"
 
-SRC_URI = "git://github.com/NLnetLabs/unbound.git;protocol=http;branch=master \
+SRC_URI = "git://github.com/NLnetLabs/unbound.git;protocol=https;branch=master \
 	file://0001-contrib-add-yocto-compatible-startup-scripts.patch \
 "
 SRCREV="ee06aaaad99dc4d6b73f915d98f05c506885b98a"

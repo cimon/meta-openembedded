@@ -8,7 +8,7 @@ BRANCH ?= "dev"
 
 SRCREV = "8b00e33003b57d7071943f63863fcf8cc48d5be9"
 
-SRC_URI = "git://github.com/westerndigitalcorporation/ufs-tool.git;protocol=git;branch=${BRANCH}"
+SRC_URI = "git://github.com/westerndigitalcorporation/ufs-tool.git;protocol=https;branch=${BRANCH}"
 
 S = "${WORKDIR}/git"
 

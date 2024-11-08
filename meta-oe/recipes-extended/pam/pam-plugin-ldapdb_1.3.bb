@@ -11,7 +11,7 @@ inherit distro_features_check
 REQUIRED_DISTRO_FEATURES = "pam"
 
 SRCREV = "84d7b260f1ae6857ae36e014c9a5968e8aa1cbe8"
-SRC_URI = "git://github.com/rmbreak/pam_ldapdb"
+SRC_URI = "git://github.com/rmbreak/pam_ldapdb;branch=master;protocol=https"
 
 S = "${WORKDIR}/git"
 

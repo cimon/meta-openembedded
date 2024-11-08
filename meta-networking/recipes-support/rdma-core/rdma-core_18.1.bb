@@ -5,7 +5,7 @@ SECTION = "libs"
 DEPENDS = "libnl"
 RDEPENDS_${PN} = "bash perl"
 
-SRC_URI = "git://github.com/linux-rdma/rdma-core.git;branch=stable-v18 \
+SRC_URI = "git://github.com/linux-rdma/rdma-core.git;branch=stable-v18;protocol=https \
            file://0001-S_IFSOCK-is-defined-in-both-glibc-musl.patch \
            file://0002-neigh.c-Do-not-include-net-if_packet.h.patch \
            file://0001-include-endian.h-for-htole32-and-friends.patch \

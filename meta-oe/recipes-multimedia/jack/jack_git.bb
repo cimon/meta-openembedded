@@ -14,7 +14,7 @@ LIC_FILES_CHKSUM = " \
 
 DEPENDS = "libsamplerate0 libsndfile1 readline"
 
-SRC_URI = "git://github.com/jackaudio/jack2.git"
+SRC_URI = "git://github.com/jackaudio/jack2.git;branch=master;protocol=https"
 SRCREV = "37250ff470277f9947fbf3ba738f943053e30525"
 PV = "1.9.13"
 S = "${WORKDIR}/git"

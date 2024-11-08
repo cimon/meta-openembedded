@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=12a64df1cc87275e940cab05ee75c37d \
 DEPENDS = "fuse virtual/libusb0"
 # v3.2p2
 SRCREV = "93c1f36d9ac481075287da331d5184f590f8c0fa"
-SRC_URI = "git://github.com/owfs/owfs \
+SRC_URI = "git://github.com/owfs/owfs;branch=master;protocol=https \
            file://owhttpd \
            file://owserver \
            file://0001-include-sys-sysmacros.h-for-major.patch \

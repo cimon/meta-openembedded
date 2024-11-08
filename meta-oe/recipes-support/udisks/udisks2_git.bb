@@ -17,7 +17,7 @@ DEPENDS += "${@bb.utils.filter('DISTRO_FEATURES', 'systemd', d)}"
 RDEPENDS_${PN} = "acl"
 
 SRC_URI = " \
-    git://github.com/storaged-project/udisks.git;branch=master \
+    git://github.com/storaged-project/udisks.git;branch=master;protocol=https \
     file://non-gnu-libc.patch \
 "
 PV = "2.8.2"

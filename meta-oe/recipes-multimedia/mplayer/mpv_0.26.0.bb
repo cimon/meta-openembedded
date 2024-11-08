@@ -16,7 +16,7 @@ LICENSE_FLAGS = "commercial"
 
 SRCREV_mpv = "4db82f04502cbcd20d9a975df9dfde91d8c389e3"
 SRC_URI = " \
-    git://github.com/mpv-player/mpv;name=mpv \
+    git://github.com/mpv-player/mpv;name=mpv;branch=master;protocol=https \
     http://www.freehackers.org/~tnagy/release/waf-1.8.12;name=waf;downloadfilename=waf;subdir=git \
 "
 SRC_URI[waf.md5sum] = "cef4ee82206b1843db082d0b0506bf71"

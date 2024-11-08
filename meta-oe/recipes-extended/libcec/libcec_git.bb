@@ -12,7 +12,7 @@ DEPENDS_append_rpi = "${@bb.utils.contains('MACHINE_FEATURES', 'vc4graphics', ''
 PV = "4.0.4"
 
 SRCREV = "3bbd4321618503d14008387a72fabb6743878831"
-SRC_URI = "git://github.com/Pulse-Eight/libcec.git \
+SRC_URI = "git://github.com/Pulse-Eight/libcec.git;nobranch=1;protocol=https \
 "
 
 S = "${WORKDIR}/git"

@@ -14,7 +14,7 @@ inherit scons dos2unix siteinfo python3native
 PV = "4.2.0+git${SRCPV}"
 #v4.2.0
 SRCREV = "18ce5c9f56a01f2c933a720d64707f3456f81c8b"
-SRC_URI = "git://github.com/mongodb/mongo.git;branch=v4.2 \
+SRC_URI = "git://github.com/mongodb/mongo.git;branch=v4.2;protocol=https \
            file://0001-Tell-scons-to-use-build-settings-from-environment-va.patch \
            file://0001-Use-long-long-instead-of-int64_t.patch \
            file://0001-Use-__GLIBC__-to-control-use-of-gnu_get_libc_version.patch \

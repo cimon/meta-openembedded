@@ -10,7 +10,7 @@ SRCREV = "a3f1f68a048d0d2321ee562b3744dd1162cad22f"
 
 S = "${WORKDIR}/git"
 
-SRC_URI = "git://github.com/cpb-/spi-tools.git;protocol=git"
+SRC_URI = "git://github.com/cpb-/spi-tools.git;protocol=https;branch=master"
 
 
 inherit autotools

@@ -22,7 +22,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://README.QUICK;md5=81b447d779e278628c843aef92f088fa"
 
 SRCREV = "d3dede3ce4462cd82a15f161af797ca51654546a"
-SRC_URI = "git://github.com/ivmai/bdwgc.git;branch=release-8_0 \
+SRC_URI = "git://github.com/ivmai/bdwgc.git;branch=release-8_0;protocol=https \
           "
 
 FILES_${PN}-doc = "${datadir}"

@@ -4,7 +4,7 @@ SECTION = "libs"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.MIT;md5=9a8ae1c2d606c432a2aa2e2de15be22a"
 
-SRC_URI = "git://github.com/nlohmann/json.git"
+SRC_URI = "git://github.com/nlohmann/json.git;branch=develop;protocol=https"
 
 PV = "3.3.0+git${SRCPV}"
 

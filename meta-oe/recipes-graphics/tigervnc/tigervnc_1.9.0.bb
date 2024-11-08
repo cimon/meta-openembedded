@@ -17,7 +17,7 @@ B = "${S}"
 
 SRCREV = "6f2301d08e64a965ad36b401ec8dc2b24bc47075"
 
-SRC_URI = "git://github.com/TigerVNC/tigervnc.git;branch=1.9-branch \
+SRC_URI = "git://github.com/TigerVNC/tigervnc.git;branch=1.9-branch;protocol=https \
            file://0001-tigervnc-remove-includedir.patch \
            file://0002-do-not-build-tests-sub-directory.patch \
            file://0003-add-missing-dynamic-library-to-FLTK_LIBRARIES.patch \

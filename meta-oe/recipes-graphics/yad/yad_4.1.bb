@@ -5,7 +5,7 @@ AUTHOR = "Victor Ananjevsky"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
 
-SRC_URI = "git://github.com/v1cont/yad.git"
+SRC_URI = "git://github.com/v1cont/yad.git;branch=master;protocol=https"
 SRCREV = "3857a0a8822fc0a7206e804f15cc17b85a5f8ce2"
 
 inherit autotools gsettings

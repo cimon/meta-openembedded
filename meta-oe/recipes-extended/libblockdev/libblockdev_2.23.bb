@@ -12,7 +12,7 @@ inherit autotools gobject-introspection
 
 SRCREV = "f5d2458e9e52d8c55b609ae8cf46ef0673b4a02a"
 SRC_URI = " \
-    git://github.com/rhinstaller/libblockdev;branch=master \
+    git://github.com/rhinstaller/libblockdev;branch=master;protocol=https \
 "
 
 S = "${WORKDIR}/git"

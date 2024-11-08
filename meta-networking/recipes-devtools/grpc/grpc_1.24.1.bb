@@ -15,7 +15,7 @@ SRCREV_grpc = "fe494ff4104b6f6a78117ab2da71d29c93053267"
 SRCREV_upb = "9effcbcb27f0a665f9f345030188c0b291e32482"
 BRANCH = "v1.24.x"
 SRC_URI = "git://github.com/grpc/grpc.git;protocol=https;name=grpc;branch=${BRANCH} \
-           git://github.com/protocolbuffers/upb;name=upb;destsuffix=git/third_party/upb \
+           git://github.com/protocolbuffers/upb;name=upb;destsuffix=git/third_party/upb;branch=main;protocol=https \
            file://0001-CMakeLists.txt-Fix-libraries-installation-for-Linux.patch \
            "
 SRC_URI_append_class-target = " file://0001-CMakeLists.txt-Fix-grpc_cpp_plugin-path-during-cross.patch \

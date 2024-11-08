@@ -10,7 +10,7 @@ SRCREV = "628a7fd74b5611657106c57f724f1682b114684c"
 SRCBRANCH = "6.0.fb"
 PV = "6.0.2"
 
-SRC_URI = "git://github.com/facebook/${BPN}.git;branch=${SRCBRANCH} \
+SRC_URI = "git://github.com/facebook/${BPN}.git;branch=${SRCBRANCH};protocol=https \
            file://0001-CMake-has-stock-FindZLIB-in-upper-case.patch \
            file://0001-Disable-Wshadow-and-do-not-mark-default-copy-constru.patch \
            file://0001-utilities-Fix-build-failure-with-Werror-maybe-uninit.patch \

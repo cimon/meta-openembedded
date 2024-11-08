@@ -18,7 +18,7 @@ REQUIRED_DISTRO_FEATURES = "pam"
 # v2.6.9
 SRCREV = "5efb1545dbac7e6d1e0a992f3e84ca12cea1c18e"
 
-SRC_URI = "git://github.com/Openwsman/openwsman.git \
+SRC_URI = "git://github.com/Openwsman/openwsman.git;branch=main;protocol=https \
            file://libssl-is-required-if-eventint-supported.patch \
            file://openwsmand.service \
            file://0001-lock.c-Define-PTHREAD_MUTEX_RECURSIVE_NP-if-undefine.patch \

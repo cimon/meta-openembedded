@@ -10,7 +10,7 @@ DEPENDS = "lcms bzip2 jpeg libpng tiff zlib fftw freetype libtool"
 
 BASE_PV := "${PV}"
 PV .= "_47"
-SRC_URI = "git://github.com/ImageMagick/ImageMagick.git "
+SRC_URI = "git://github.com/ImageMagick/ImageMagick.git;branch=main;protocol=https"
 SRCREV = "b672df7a44b0ab0219b1fa78b3673c2810ddd374"
 
 S = "${WORKDIR}/git"

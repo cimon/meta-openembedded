@@ -7,7 +7,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=79aa497b11564d1d419ee889e7b498f6"
 
 SRCREV = "4b45db34ecd95b62ef2b66a8e5180c66ca791a21"
-SRC_URI = "git://github.com/MycroftAI/mycroft-core.git;branch=master \
+SRC_URI = "git://github.com/MycroftAI/mycroft-core.git;branch=master;protocol=https \
            file://0001-Remove-python-venv.patch \
            file://0002-pip-requirements-Remove-ones-installed-by-OE.patch \
            file://0003-Use-python3-and-pip3-instead-of-python-and-pip.patch \

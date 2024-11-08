@@ -3,7 +3,7 @@ LICENSE = "GPLv2"
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
-SRC_URI = "git://github.com/ubinux/dnf-plugin-tui.git;branch=master "
+SRC_URI = "git://github.com/ubinux/dnf-plugin-tui.git;branch=master;protocol=https "
 SRCREV = "31d6866d5eda02be9a6bfb1fca9e9095b12eecd1"
 PV = "1.0"
 
